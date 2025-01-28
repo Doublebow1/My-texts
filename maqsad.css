@@ -43,14 +43,22 @@ p {
 .list {
 	margin: 10px 0 10px 20px;
 	color: #222623;
+	& li {
+		font-size: 18px;
+		padding: 10px 0;
+		max-width: 850px;
+		line-height: 1.6;
+	}
 	& :nth-child(n+10) {
 		margin-left: 8px;
 	}
 }
 
 .quote {
+	margin: 10px 0;
+	font-size: 18px;
 	border-left: 4px solid #000;
-	padding-left: 20px;
+	padding: 5px 0 5px 20px;
 }
 
 .footer {
