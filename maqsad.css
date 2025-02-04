@@ -29,8 +29,13 @@ h3 {
 	margin: 20px 0 10px 0;
 }
 
+ul, ol {
+	margin-left: 15px;
+	font-size: 18px;
+}
+
 li {
-	margin: 5px 0;
+	margin: 10px 0;
 }
 
 p {
